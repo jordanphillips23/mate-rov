@@ -1,5 +1,13 @@
 #!/usr/bin/env python
-
+# 
+# A class which interfaces 
+# a usb game controller and ROS
+# the controllers values are published 
+# as Float32 messages
+#
+# Written by Jonathan Sanabria for CURC
+# (c) Jonathan Sanabria, 2019
+#
 
 import pygame
 import rospy
